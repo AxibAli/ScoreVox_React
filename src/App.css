@@ -1,1 +1,70 @@
 
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+:root {
+  --darkPurple: #7A2C8F;
+  --lightPurple: #985CA8;
+  --primaryPurple: #BE3DE3;
+  --light: white;
+  --dark: black;
+  --primary: #F3ECF5;
+  --gray : #CCCCCC;
+  --fontFamily: 'Roboto', sans-serif;
+}
+
+body {
+font-family: var(--fontFamily);
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bolder;
+
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+h3{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+h4{
+  font-size: 12px ;
+}
+
+p {
+  font-size: 1rem;
+}
+
+ul, ol {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 500px) {
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+}
+
+@media only screen and (min-width: 1024px) {
+}
+
